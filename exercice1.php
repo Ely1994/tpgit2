@@ -9,7 +9,7 @@
 <body>
     <?php // Créer les tableaux de bateaux
     $bateaux = array(
-    "Manureva" => array ( "nbEquipage" => 5, "passager" => P), // il grossit lors de la fusion de master et exo1b
+    "Manureva" => array ( "nbEquipage" => 5, "passager" => 3), // il grossit lors de la fusion de master et exo1b
     "Patat" => array ( "nbEquipage" => 2, "passager" => 4), // patat est plus petit
     "Sirius" => array ( "nbEquipage" => 6, "passager" => 8),
     "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15),
@@ -33,6 +33,16 @@
             echo "<br>Passagers : ".$lequipage["passager"]."<br>";
        }
     }
+    
+   $test=rand(0,100); // on initialise la valeur test
+    $nbr=0; // on initialise le petit compteur des familles si si t'as vu !
+    while($test!=rand(0,100)) //une petite boucle niquel chrome
+    {   
+        $test=rand(0,100);
+        $nbr++;
+    }
+    echo $nbr; // et hop on affiche le compteur comme un bg !
+    
     // ou
     //$bateaux["Manureva"]["nbEquipage"];
     ?>
