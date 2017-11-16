@@ -10,6 +10,7 @@
     <?php // Créer les tableaux de bateaux
     $bateaux = array(
     "Manureva" => array ( "nbEquipage" => 3, "passager" => 4),
+    "Patat" => array ( "nbEquipage" => 6, "passager" => 11)
     "Sirius" => array ( "nbEquipage" => 6, "passager" => 8),
     "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15)
     ); ?>
@@ -21,6 +22,7 @@
         }
     } -->
     <h1>Taratatam !</h1>
+    <h2>TP de l'exercice 1 sur les bateaux</h2>
     <p>Nous allons afficher les bateaux qui peuvent accepter au moins 10 passagers:</p>
     <?php // autre Parcourt
     foreach($bateaux as $lesbateaux => $lequipage) {
