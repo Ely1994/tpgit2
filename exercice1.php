@@ -12,7 +12,8 @@
     "Manureva" => array ( "nbEquipage" => 3, "passager" => 4),
     "Patat" => array ( "nbEquipage" => 6, "passager" => 11)
     "Sirius" => array ( "nbEquipage" => 6, "passager" => 8),
-    "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15)
+    "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15),
+    "Nautilus" => array ( "nbEquipage" => 5, "passager" => 5)
     ); ?>
     <!-- Parcourir les tableaux
     foreach($bateaux as $lesbateaux => $lequipage) {
