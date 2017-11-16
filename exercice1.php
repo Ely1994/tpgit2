@@ -9,7 +9,7 @@
 <body>
     <?php // Créer les tableaux de bateaux
     $bateaux = array(
-    "Manureva" => array ( "nbEquipage" => 3, "passager" => 4),
+    "Manureva" => array ( "nbEquipage" => 5, "passager" => P), // il grossit lors de la fusion de master et exo1b
     "Patat" => array ( "nbEquipage" => 2, "passager" => 4), // patat est plus petit
     "Sirius" => array ( "nbEquipage" => 6, "passager" => 8),
     "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15),
