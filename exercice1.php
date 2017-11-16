@@ -34,14 +34,14 @@
        }
     }
     
-   
-    $nbr=0;
-    while($test=203!==rand(0,100))
+   $test=rand(0,100); // on initialise la valeur test
+    $nbr=0; // on initialise le petit compteur des familles si si t'as vu !
+    while($test!=rand(0,100)) //une petite boucle niquel chrome
     {   
         $test=rand(0,100);
         $nbr++;
     }
-    echo $nbr;
+    echo $nbr; // et hop on affiche le compteur comme un bg !
     
     // ou
     //$bateaux["Manureva"]["nbEquipage"];
