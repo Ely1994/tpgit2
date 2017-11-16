@@ -10,12 +10,12 @@
     <?php // Créer les tableaux de bateaux
     $bateaux = array(
     "Manureva" => array ( "nbEquipage" => 3, "passager" => 4),
-    "Patat" => array ( "nbEquipage" => 6, "passager" => 11),
+    "Patat" => array ( "nbEquipage" => 2, "passager" => 4), // patat est plus petit
     "Sirius" => array ( "nbEquipage" => 6, "passager" => 8),
     "Surcouf" => array ( "nbEquipage" => 8, "passager" => 15),
     "Nautilus" => array ( "nbEquipage" => 10, "passager" => 10) // Le nautilus grossit !
     ); ?>
-    <!-- Parcourir les tableaux
+    <!-- Parcourir les tableaux 
     foreach($bateaux as $lesbateaux => $lequipage) {
             echo $lesbateaux;
         foreach($lequipage as $personnes => $valeurs) {
